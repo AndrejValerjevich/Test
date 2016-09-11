@@ -27,6 +27,13 @@
 		</tr>
 	</table>
 	<input type="button" value="+ добавить" class="btn" onclick="show('block')">
+	<p class="php-date">Сегодняшняя дата (согласно данному веб-серверу) (ха):
+
+       <?php
+
+       echo date('l, F  jS Y.');
+
+?> 
 </section>
 
 <div onclick="show('none')" class="wrap-window"></div>
